@@ -1,0 +1,6 @@
+#Masahiro Yoshida
+#SE3377.002
+
+BEGIN {sum1 = 0; sum2 = 0}
+{sum1 += $1; sum2 += $4}
+END {print sum1, sum2}

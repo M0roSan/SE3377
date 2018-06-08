@@ -1,0 +1,5 @@
+this is the parent
+this is child
+received signal SIGHUP. updating map of config
+received signal SIGINT. closing logfile and removing pidfile
+received signal SIGINT. closing logfile and removing pidfile

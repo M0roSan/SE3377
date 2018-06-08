@@ -1,0 +1,29 @@
+gawk at: /home/010/m/mx/mxy172130/hw/hw3/bin/gawk
+Shellcmd1: /home/010/m/mx/mxy172130/hw/hw3/bin/gawk --version
+Shellcmd2: /home/010/m/mx/mxy172130/hw/hw3/bin/gawk -f gawk.code numbers.txt
+
+The first call to gawk returned: 
+
+GNU Awk 3.1.8
+Copyright (C) 1989, 1991-2010 Free Software Foundation.
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see http://www.gnu.org/licenses/.
+
+The second call to gawk returned: 125 497
+
+The sum of Columns 1 is: 125
+The sum of Columns 2 is: 497
+The sum of the two numbers is: 622
+
+

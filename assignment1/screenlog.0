@@ -1,0 +1,37 @@
+{cslinux1:~} cd hw/hw1
+{cslinux1:~/hw/hw1} bash compile.sh
+setting TEMPDIR environment variable to /scratch
+Compiling file1.cc
+Compiling file12.cc
+Linking files to create executable hw1
+Done
+{cslinux1:~/hw/hw1} bash run.sh
+Running hw1 with 0 arguments:
+	 stdout appended to stdout.txt
+	 stderr appended to stderr.txt
+
+Running hw1 with 1 argument:
+	 stdout appended to stdout.txt
+	 stderr appended to stderr.txt
+
+Running hw1 with 5 arguments:
+	 stdout appended to stdout.txt
+	 stderr apeended to stderr.txt
+{cslinux1:~/hw/hw1} more stdout.txt
+args was: 1
+./hw1
+args was: 2
+./hw1
+abc
+args was: 6
+./hw1
+a
+b
+c
+d
+e
+{cslinux1:~/hw/hw1} more stderr.txt
+Inside proc1() as stderr
+Inside proc1() as stderr
+Inside proc1() as stderr
+{cslinux1:~/hw/hw1} 

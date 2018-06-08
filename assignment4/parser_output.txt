@@ -1,0 +1,7 @@
+Operating in parse mode
+
+Bad name-line... skipping to newline
+Bad address-line... skipping to newline
+Bad location-line... skipping to newline
+
+Parse success
